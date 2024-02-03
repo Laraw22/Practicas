@@ -1,0 +1,14 @@
+article img {
+  width: 30px;
+  flex-grow: 2;
+  object-fit: cover;
+  opacity: 0.8;
+  transition: 0.3s ease;
+}
+article img:hover {
+  cursor: crosshair;
+  width: 120px;
+  opacity: 10;
+  filter: contrast(120%);
+}
+
